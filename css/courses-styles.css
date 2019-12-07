@@ -1,0 +1,129 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *,*:before,*:after {
+    box-sizing: inherit;
+  }
+  body {
+    margin: 0px;
+    }
+
+/* ##### Header #### */
+.whole-nav {
+    background:#9A9C8B;
+    /* position: fixed; */
+    top: 0px;
+    width: 100%;
+    }
+
+.header {
+    text-align: center;
+    font-size: 50px;
+    color: #1B1D12;
+}
+
+/* ##### Nav Bar #### */
+.nav {
+    border:2px solid #1B1D12;
+    border-width: 2px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    padding:20px;
+   width: 100%;
+}
+.nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    
+  }
+  
+  /* Change the color of links on mouse-over */
+  .nav a:hover {
+    background-color: #637E71;
+    color: black;
+  }
+  
+ /* ##### Body #### */
+
+main {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.full-body {
+    background-color: #9BDEAC;
+}
+
+.top-image {
+padding-top: 30px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.course-header {
+    text-align: center;
+}
+
+.course-ava {
+    border-radius: 50%;
+  }
+.course {
+
+}
+/* ##### Drop Down #### */
+
+.accordion {
+    background-color:#637E71;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color:#86A88D
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #D3D3D3;
+    overflow: hidden;
+  }
+
+
+/* ##### Footer #### */
+
+.end {
+    background-color:#9A9C8B;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-text {
+  float: right;
+  justify-content: right;
+}
