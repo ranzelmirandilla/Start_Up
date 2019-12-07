@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+
+body{
+    margin: 30px 50px;
+    
+}
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 5px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: 4F5D75;
+    margin: 0 40px;
+  }
+  
+  #logo{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding-top: 150px;
+    background: url("../img/logo.png");
+    /* background-image: url(../img/logo1.jpg); */
+    align-content: center;
+    color: white;
+    /* background: rgba(0,0,0,0.3); */
+  }
+  .band-pic{
+    
+    max-width: 100%;
+    height: 800px;
+    /* display: grid; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background: url(../img/promo_2.jpg);
+    /* grid-template-areas:
+      'band band top-links'
+      'band band top-links'; */
+  }
+  .band{
+    padding-top: 250px;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0px 1px 5px black;
+  }
+  .band h1{
+    font-size: 50px;
+    color: white;
+    margin-left: 43%;
+    margin-bottom: 0;
+    
+  }
+  .band p{
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    
+  }
