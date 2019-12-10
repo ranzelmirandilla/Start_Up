@@ -1,19 +1,35 @@
-/*reset*/
-*{
-  margin: 0;
-  padding: 0;
-  background-color: #ffe6e6;
-} 
-
-  
-.header {
-  text-align: center;
-  font-size: 50px;
-  color: purple;
+html{
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
 }
-        
-      
-    
+
+ 
+  .header {
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+  }
+
+
+/*background color of the entire page*/
+Body{
+       
+   background-color: #ffe6e6;  
+}
+
+  /*for images to wrap on the right and left of the paragraphs*/
+ 
+  .Textwrap {
+         float:right;
+         margin: 10px;
+  }
+  .Textwrap {
+    float:left;
+    margin: 10px;
+}
+ 
+   
+   /* footer information and style*/    
     footer {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: white;
@@ -23,8 +39,7 @@
       padding: 20px;
       background-color: purple;
     }
-    
-   
+      
     
   footer a {
     color: white;
@@ -36,7 +51,7 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-  }*/
+  }
 
 
 
