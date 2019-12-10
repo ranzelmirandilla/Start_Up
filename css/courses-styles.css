@@ -25,7 +25,8 @@ body{
     color: black;
   }
    */
- /* ##### Body #### */
+ 
+   /* ##### Body #### */
 
 main {
     margin-top: 10px;
@@ -47,11 +48,17 @@ display: block;
 
 .course-header {
     text-align: center;
+    font-size: 60px;
 }
 
 .course-ava {
     border-radius: 50%;
   }
+
+  .course-desc {
+
+  }
+
 .course {
 
 }
@@ -85,7 +92,8 @@ display: block;
 /* ##### Footer #### */
 
 .end {
-    background-color:#9A9C8B;
+    /* background-color:#9A9C8B; */
+    display: flex;
     bottom: 0;
     width: 100%;
 
@@ -93,10 +101,15 @@ display: block;
 
 .socials {
 padding: 20px;
+display: flex;
+justify-content: flex-start;
+margin-bottom: 0;
 
 }
 
 .footer-text {
-  float: right;
-  margin-bottom: 0;
+   /* margin-bottom: 0; */
+   display: flex;
+   justify-content: flex-end;
+  
 }
