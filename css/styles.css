@@ -7,19 +7,23 @@ html{
 
 body{
     margin: 30px 50px;
-    color: #F7F9FC;
+
+    background: #EFB7BA;
     
 }
 img{
     max-width: 100%;
 }
 .btn {
-  background: #EF8354;
+
+
+  background: #CBD5F0;
   /* color: var(--light); */
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border: 0;
   box-shadow: 0px 1px 5px black;
+  color: #FAFAFB;
 }
 nav{
     display: flex;
@@ -27,8 +31,9 @@ nav{
     height: 20%;
     align-items: center;
     justify-content: center;
-    font-size: 43px;
+    font-size: 43.5px;
     padding-bottom: 20px;
+    color: #194F92;
     
   }
   
@@ -50,7 +55,7 @@ nav{
     color: white;
     /* background: rgba(0,0,0,0.3); */
   }
-  .band-pic{
+  .main-pic{
     
     max-width: 100%;
     height: 800px;
@@ -60,20 +65,20 @@ nav{
     background: url(../img/promo_2.jpg);
 
   }
-  .band{
+  .main{
     padding-top: 300px;
     align-items: start;
     justify-content: center;
     box-shadow: 0px 1px 5px black;
   }
-  .band h1{
+  .main h1{
     font-size: 50px;
-    color: white;
+    color: #FAFAFB;
     margin-left: 43%;
     margin-bottom: 0;
     
   }
-  .band p{
+  .main p{
     font-size: 30px;
     color: white;
     margin-top: 0;
@@ -87,13 +92,14 @@ nav{
   }
   
   .box {
-    background: #4F5D75;
+    background: #CBD5F0;
       margin-top: 50px;
     /* background: burlywood; */
     text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: 0px 1px 5px black;
     /* font-size: 28px; */
+    color: #194F92;
     
   }
   .about_sum{
