@@ -12,18 +12,18 @@ html{
 
 
 /*background color of the entire page*/
-Body{
+body{
        
    background-color: #ffe6e6;  
 }
 
   /*for images to wrap on the right and left of the paragraphs*/
  
-  .Textwrap {
+  .textwrap-right {
          float:right;
          margin: 10px;
   }
-  .Textwrap {
+  .textwrap-left {
     float:left;
     margin: 10px;
 }
