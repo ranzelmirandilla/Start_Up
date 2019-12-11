@@ -9,12 +9,22 @@ html{
     font-size: 50px;
     color: purple;
   }
+/* coding button*/
+  .btn {
 
 
+    background: #CBD5F0;
+    /* color: var(--light); */
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0px 1px 5px black;
+    color: #FAFAFB;
+  }
 /*background color of the entire page*/
 body{
        
-   background-color: #ffe6e6;  
+   background-color: #efb7ba;  
 }
 
   /*for images to wrap on the right and left of the paragraphs*/
