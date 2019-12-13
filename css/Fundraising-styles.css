@@ -1,0 +1,154 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+/*background color of the entire page*/
+body{
+  margin: 30px 50px;
+       
+  background-color: #efb7ba;  
+}
+
+ /* body {
+   margin: 0;
+   font-family: Arial;
+ } */
+
+ 
+
+
+
+/*.to create a style of the header*/
+h1{
+    text-align: center;
+    color: #006400;
+  }
+  
+  section {
+    text-align: center;
+    color: #006400;
+  }
+
+ 
+ /** {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   margin: 0;
+   font-family: Arial;
+ }
+ .header {
+   text-align: center;
+   padding: 32px;
+ }*/
+ 
+ /*/* Create two equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 50%;
+   padding: 10px;
+ }
+ 
+ .column img {
+   margin-top: 12px;
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+  .grid-container{
+    
+   box-sizing: border-box;
+ }
+ 
+
+ 
+ .header {
+   text-align: center;
+   padding: 32px;
+ }
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* to style the fundraising items, description and price*/
+
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 200px 200px 200px; 
+    gap: .5px;
+    margin: 5px;
+    color: white;
+    font-family: cursive;
+    font-size: 1em;
+    font-weight: 600;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    
+  }
+
+  .grid-container div {
+    display: flex;
+    flex-flow: wrap;
+    padding: 30px;
+    border: 1px solid purple;
+  }
+
+ /* footer information and style*/    
+ footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #bc4b51;
+  }
+    
+  
+footer a {
+  color: white;
+  font-family: cursive;
+  font-size: 1em;
+  font-weight: 400;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+
+
+
+
+
+
+
+
