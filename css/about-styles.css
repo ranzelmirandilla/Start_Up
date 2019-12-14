@@ -13,91 +13,87 @@ body{
 
 
 
- /*.header {
-    text-align: center;
-    font-size: 50px;
-    color: purple;
-  }*/
+
 /*.to create a style of the header*/
 h1{
   text-align: center;
-  color: #006400;
+  color: purple;
 }
 
 section {
   text-align: center;
-  color: #006400;
+  color: purple;
 }
 
-/* coding button*/
-  .btn {
-    background: #801515;
-    /* color: var(--light); */
-    padding: 0.6rem 1.3rem;
-    text-decoration: none;
-    border: 0;
-    box-shadow: 0px 1px 5px black;
-    color: #FAFAFB;
+
+
+ /*to create listing with nothing infront of text*/
+   dd {
+     margin-left: 30px;
+     
+     color: purple;
+   }
+
+/*use pound sign to call an id tag from html */
+#Programs_id {
+    color: purple;
+    font-size: 25px;
+    float: center;
+    
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 200px 200px 200px; 
+    gap: .5px;
+    margin: 5px;
+    color: white;
+    font-family: cursive;
+    font-size: 1em;
+    font-weight: 600;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    
   }
-  
-  /* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-/* dropdown Content(Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: orange;
-  min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,.2);
-  z-index: 1;
-
-}/* Links inside the dropdown */
-.dropdown-content a {
-  color: #8AA29E;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+  .grid-container div {
+    display: flex;
+    flex-flow: wrap;
+    padding: 30px;
+    border: 1px solid purple;
+  }
 
   /*for images to wrap on the right and left of the paragraphs*/
  
-  .textwrap-right {
-         float:right;
+  .Image-left {
+         float:left;
          margin: 10px;
   }
-  .textwrap-left {
-    float:left;
+  .Image-right {
+    float: right;
     margin: 10px;
 }
  
    
    /* footer information and style*/    
-    footer {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: white;
-      font-size: 1em;
-      text-align: center;
-      margin: 0;
-      padding: 20px;
-      background-color: #bc4b51;
+          
+    .footer-text p {
+      display: flex;
+      text-align: right;
+      font-size: 20px;
     }
-      
-    
-  footer a {
-    color: white;
-    font-family: cursive;
-    font-size: 1em;
-    font-weight: 400;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  }
+
+
+
+
+
+
+
+  
 
 
 
