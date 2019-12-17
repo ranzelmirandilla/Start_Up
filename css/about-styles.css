@@ -67,9 +67,73 @@ section {
     border: 1px solid purple;
   }
 
-  /*for images to wrap on the right and left of the paragraphs*/
- 
-  .Image-left {
+  /*for text wrap to the right and left of the images*/
+ .TextWrap{
+     float: left;
+     margin:10px;
+ }
+
+ .TextWrap{
+     float: right;
+     margin: 10px;
+
+}
+/*two dream images placed side by side*/
+.flex-container {
+  flex-direction: row;
+  padding:     10px;
+}
+  .flex-container {
+    flex-direction: row;
+    padding:    10px;
+ }
+/*.flex-container {
+  flex-direction: row;
+  
+}
+/*.row{
+  display: flex;
+}
+.column: {
+  flex: 200;
+  padding 5px;
+  
+}
+.row {
+  display: flex;
+  
+}
+
+.column: {
+  flex: 200;
+  padding 100px;
+  
+}*/
+
+
+
+/*.TextWrap{
+  float: left;
+  margin:10px;
+}
+.TextWrap{
+  float: right;
+  margin:10px;
+
+}*/
+.TextWrap{
+  float: left;
+  margin:10px;
+}
+
+
+
+
+
+
+
+
+  /*.Image-left {
          float:left;
          margin: 10px;
   }
