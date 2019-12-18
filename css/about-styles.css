@@ -87,62 +87,12 @@ section {
     flex-direction: row;
     padding:    10px;
  }
-/*.flex-container {
-  flex-direction: row;
-  
-}
-/*.row{
-  display: flex;
-}
-.column: {
-  flex: 200;
-  padding 5px;
-  
-}
-.row {
-  display: flex;
-  
-}
 
-.column: {
-  flex: 200;
-  padding 100px;
-  
-}*/
-
-
-
-/*.TextWrap{
+.TextWrap {
   float: left;
   margin:10px;
-}
-.TextWrap{
-  float: right;
-  margin:10px;
-
-}*/
-.TextWrap{
-  float: left;
-  margin:10px;
-}
-
-
-
-
-
-
-
-
-  /*.Image-left {
-         float:left;
-         margin: 10px;
-  }
-  .Image-right {
-    float: right;
-    margin: 10px;
 }
  
-   
    /* footer information and style*/    
           
     .footer-text p {
