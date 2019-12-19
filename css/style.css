@@ -1,0 +1,220 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+
+body{
+    margin: 30px 50px;
+
+    background: #EFB7BA;
+    
+}
+
+/* /////////////////
+   ///// Logo //////
+   ///////////////// */
+img{
+    max-width: 100%;
+}
+
+
+/* /////////////////
+   ///// BUTTON ////
+   ///////////////// */
+.btn {
+
+
+  background: #CBD5F0;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0px 1px 5px black;
+  color: #FAFAFB;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    font-size: 43.5px;
+    padding-bottom: 20px;
+    color: #194F92;
+    
+  }
+  
+  a{
+    /* background: #EF8354; */
+    text-decoration: none;
+    color: #4F5D75;
+    margin: 0 40px;
+  }
+  
+  #logo{
+    width: 100%;
+    height: 95px;
+    align-items: center;
+    padding-top: 150px;
+    background: url("../img/logo.png");
+    /* background-image: url(../img/logo1.jpg); */
+    align-content: center;
+    color: white;
+    /* background: rgba(0,0,0,0.3); */
+  }
+  .main-pic{
+    
+    max-width: 100%;
+    height: 800px;
+    /* display: grid; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(../img/promo_2.jpg);
+
+  }
+  .main{
+    padding-top: 300px;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 0px 1px 5px black;
+  }
+  .main h1{
+    font-size: 50px;
+    color: #FAFAFB;
+    margin-left: 43%;
+    margin-bottom: 0;
+    
+  }
+  .main p{
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    
+  }
+  .boxes {
+    
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+  }
+  
+  .box {
+    background: #CBD5F0;
+      margin-top: 50px;
+    /* background: burlywood; */
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: 0px 1px 5px black;
+    /* font-size: 28px; */
+    color: #194F92;
+    margin: auto;
+    width: 700px;
+    height: 200px;
+    
+  }
+  .about_sum{
+    color: #EF8354;
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #4F5D75;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #4F5D75;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 16px; 
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1{
+  text-align: Center;
+}
