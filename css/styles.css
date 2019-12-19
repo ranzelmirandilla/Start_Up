@@ -2,24 +2,21 @@ html {
   box-sizing: border-box;
   font-family: "Bebas Neue", cursive;
 }
-
 body {
   margin: 30px 50px;
-
   background: #efb7ba;
 }
-
 img {
   max-width: 100%;
 }
-
 .btn {
-  background: #cbd5f0;
+  background: #fafafb;
+  /* color: var(--light); */
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border: 0;
   box-shadow: 0px 1px 5px black;
-  color: #fafafb;
+  color: black;
 }
 nav {
   display: flex;
@@ -27,7 +24,7 @@ nav {
   height: 20%;
   align-items: center;
   justify-content: center;
-  font-size: 43.5px;
+  font-size: 30px;
   padding-bottom: 20px;
   color: #194f92;
 }
@@ -41,10 +38,10 @@ a {
 
 #logo {
   width: 100%;
-  height: 95px;
+  /* height: 95px; */
   align-items: center;
-  padding-top: 150px;
-  background: url("../img/logo.png");
+  padding-top: 20px;
+  object-fit: cover;
   /* background-image: url(../img/logo1.jpg); */
   align-content: center;
   color: white;
@@ -83,17 +80,44 @@ a {
 
 .box {
   background: #cbd5f0;
-  margin-top: 50px;
+  margin-top: 20px;
   /* background: burlywood; */
-  text-align: center;
+  text-align: justify;
   padding: 1.5rem 2rem;
   box-shadow: 0px 1px 5px black;
   /* font-size: 28px; */
   color: #194f92;
-  margin: auto;
-  width: 700px;
-  height: 200px;
+}
+.box img {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .about_sum {
-  color: #ef8354;
+  color: #194f92;
+  background: #cbd5f0;
+  margin-top: 20px;
+  /* background: burlywood; */
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 1px 5px black;
+}
+.end {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+footer {
+  color: white;
+}
+.socials {
+  padding: 20px;
+  display: flex;
+}
+.footer-text p {
+  display: flex;
+  text-align: right;
+  font-size: 20px;
 }
