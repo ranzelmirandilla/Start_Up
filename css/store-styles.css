@@ -20,19 +20,26 @@ main  {
 
 /* ### Store Page Formatting ### */
 
-p {
+.store-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  color: #194F92;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .store-header {
   text-align: center;
   font-size: 60px;
+  color: #194F92;
 }
 .merch-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;  
+  background-color: #fafafb;
+  
+
 }
 
 
@@ -45,6 +52,8 @@ p {
   padding: 50px;
   margin: 20px;
   text-align: center;
+  box-shadow: 0px 1px 5px black
+  
 }
 
 .merchpic {
@@ -57,6 +66,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 20px;
   font-size: 30px;
+  color: #194F92;
 }
 
 
