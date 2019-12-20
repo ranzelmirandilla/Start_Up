@@ -47,25 +47,18 @@ h1{
    padding: 32px;
  }
 
-/* Create two equal columns for images that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+/* using flex to display images in a row with some space in between*/
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  flex:  start;
+}
+/* allowing the images to grow and shrink*/
+.img>* {
+  flex:1 1 10px
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-styling images
-.gallery_img {
-  width: 50px;
-  height:50px;
-  object-fit:cover;
-}
+
 /* to style the fundraising items, description and price*/
  .grid-container {
     display: grid;
@@ -73,7 +66,7 @@ styling images
     grid-template-rows: 160px 160px 160px; 
     gap: .5px;
     margin: 5px;
-    color: white;
+    color:  green;
     font-family: cursive;
     font-size: 1em;
     font-weight: 400;
@@ -97,7 +90,9 @@ styling images
   text-align: right;
   font-size: 20px;
 }
- 
+.footer {
+  color: white;
+}
 
 
 

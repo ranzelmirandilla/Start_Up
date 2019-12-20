@@ -24,15 +24,29 @@ section {
   text-align: center;
   color: purple;
 }
+/* using flex to display link buttons in a row with some space in between*/
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  flex:  start;
+}
+/* allowing the images to grow and shrink*/
+.img>* {
+  flex:1 1 10px
+}
 
+/* to make a horizontal unnumbered list of links*/
+ul {
+ list-style-type: none;
+ text-decoration: none;
+ display: inline;
+ text-align: center;
 
-
- /*to create listing with nothing infront of text*/
-   dd {
-     margin-left: 30px;
-     
-     color: purple;
-   }
+}
+li {
+  display: inline;
+  padding: 5px;
+}
 
 /*use pound sign to call an id tag from html */
 #Programs_id {
@@ -82,10 +96,12 @@ section {
 .flex-container {
   flex-direction: row;
   padding:     10px;
+  justify-content: space-between;
 }
   .flex-container {
     flex-direction: row;
     padding:    10px;
+    justify-content: space-between;
  }
 
 .TextWrap {
@@ -93,7 +109,7 @@ section {
   margin:10px;
 }
  
-   /* footer information and style*/    
+  /* footer information and style*/    
           
     .footer-text p {
       display: flex;
@@ -101,10 +117,7 @@ section {
       font-size: 20px;
     }
 
-
-
-
-
+  
 
 
   
