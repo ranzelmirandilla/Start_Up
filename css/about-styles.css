@@ -6,39 +6,26 @@ html{
 /*background color of the entire page*/
 body{
   margin: 30px 50px;
-
   background: #EFB7BA;
   
 }
 
-
-
-
 /*.to create a style of the header*/
 h1{
   text-align: center;
-  color: purple;
+  color: black;
+  /*background-color: rgb(196, 33, 33);*/
 }
-
+/* main body style*/
 section {
   text-align: center;
-  color: purple;
+  color:  black;
+  background-color: rgb(220,20,60);
 }
-/* using flex to display link buttons in a row with some space in between*/
-.img {
-  display: flex;
-  flex-wrap: wrap;
-  flex:  start;
-}
-/* allowing the images to grow and shrink*/
-.img>* {
-  flex:1 1 10px
-}
-
-/* to make a horizontal unnumbered list of links*/
+/* to make a horizontal unnumbered list for the links*/
 ul {
  list-style-type: none;
- text-decoration: none;
+ text-decoration: white;
  display: inline;
  text-align: center;
 
@@ -47,55 +34,21 @@ li {
   display: inline;
   padding: 5px;
 }
-
-/*use pound sign to call an id tag from html */
-#Programs_id {
-    color: purple;
-    font-size: 25px;
-    float: center;
-    
-
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 200px 200px 200px; 
-    gap: .5px;
-    margin: 5px;
-    color: white;
-    font-family: cursive;
-    font-size: 1em;
-    font-weight: 600;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    
-  }
-
-  .grid-container div {
-    display: flex;
-    flex-flow: wrap;
-    padding: 30px;
-    border: 1px solid purple;
-  }
-
-  /*for text wrap to the right and left of the images*/
+ /*for text wrap to the right and left of the images*/
  .TextWrap{
      float: left;
-     margin:10px;
+     margin:40px;
  }
 
  .TextWrap{
      float: right;
-     margin: 10px;
+     margin: 40px;
 
 }
 /*two dream images placed side by side*/
 .flex-container {
   flex-direction: row;
-  padding:     10px;
+  padding: 10px;
   justify-content: space-between;
 }
   .flex-container {
@@ -106,7 +59,7 @@ li {
 
 .TextWrap {
   float: left;
-  margin:10px;
+  margin:40px;
 }
  
   /* footer information and style*/    

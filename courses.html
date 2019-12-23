@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/courses-styles.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-          <title>Courses</title>
-</head>
-<body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <div id="logo"></div>
-        <a href="courses.html">Courses</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/courses-styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Courses</title>
+  </head>
+  <body>
+   
 
     <main>
-<div class="full-body">
+<body>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="about.html">About</a>
+  <a href="Store.html">Store</a>
+  <div id="logo">
+          <img src="img/arms length 2000px sq-white.png" alt="">
+  </div>
+  <a href="courses.html">Courses</a>
+  <a href="contact.html">Contact</a>
+  <a href="Fundraising.html">Fundraising</a>
+</nav>
+
+    <main>
+<div class="course-body">
   
   <!-- If I can figure out how to do it, the OWL carousel instead of the one static image as a head image -->
 
@@ -94,24 +110,25 @@
   <p class="intro-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, ratione debitis voluptate nam velit quia? Ullam, libero, fugiat quibusdam totam mollitia tenetur beatae magni repellat asperiores, cumque laudantium neque velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vitae esse architecto similique accusantium repellat cupiditate tempora placeat provident debitis quisquam, dicta odio, impedit, rerum quidem eaque qui animi veniam.</p>
 </div>
 
-<script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
-    </script>
 
-</main>
+      <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </main>
+
 
 <footer>
         <div class="end">
@@ -131,6 +148,7 @@
             </div>
 
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

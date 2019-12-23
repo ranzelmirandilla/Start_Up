@@ -13,12 +13,12 @@ body{
 /*.to create a style of the header*/
 h1{
     text-align: center;
-    color: #006400;
+    color: black;
   }
   
   section {
     text-align: center;
-    color: #006400;
+    color: black;
   }
  /*/* Create two equal columns that floats next to each other */
  .column {
@@ -66,7 +66,7 @@ h1{
     grid-template-rows: 160px 160px 160px; 
     gap: .5px;
     margin: 5px;
-    color:  green;
+    color:  black;
     font-family: cursive;
     font-size: 1em;
     font-weight: 400;
