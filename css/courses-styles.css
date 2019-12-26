@@ -37,7 +37,7 @@ width: 50%;
 }
 
 .intro-text {
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'Montserrat', sans-serif;;
 font-size: 20px;
 padding-left: 40px;
 padding-right: 40px;
@@ -90,7 +90,7 @@ color: #194F92;
   }
   
   .course-desc {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-right: 15px;
     color: #194F92;
