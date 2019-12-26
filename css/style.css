@@ -9,14 +9,7 @@ body {
 img {
   max-width: 100%;
 }
-.btn {
-  background: #fafafb;
-  padding: 0.6rem 1.3rem;
-  text-decoration: none;
-  border: 0;
-  box-shadow: 0px 1px 5px black;
-  color: black;
-}
+
 /* ///////////////////////////////////
    //////////// Home Nav /////////////
    //////////////////////////////////*/
@@ -271,8 +264,14 @@ p{
 /* ///////////////////////////////////
    ////////// Button display  ////////
    //////////////////////////////////*/
-.btn{
+.btn-submit{
   display: flex;
   justify-content: center;
+  background: #fafafb;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0px 1px 5px black;
+  color: black;
   
 }
