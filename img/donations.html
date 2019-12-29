@@ -22,7 +22,7 @@
   </head>
   <body>
       <nav>
-          <a href="index.html">Home</a>
+          <a href="#">Home</a>
           <a href="about.html">About</a>
           <a href="Store.html">Store</a>
           <div id="logo">
@@ -33,7 +33,6 @@
           <a href="Fundraising.html">Fundraising</a>
   </nav>
 
-
     <nav>
       <div class="dropdown">
         <button class="dropbtn">
@@ -42,7 +41,7 @@
         </button>
         <div class="dropdown-content">
           <a href="contact.html">Mentor</a>
-          <a href="student.html">Student</a>
+          <a href="contact.html">Student</a>
         </div>
       </div>
       <div class="dropdown">
@@ -64,14 +63,37 @@
           <a href="FAQ.html">Frequently asked questions</a>
         </div>
       </div>
-    
+      
     </nav>
     <section class="boxes">
-      <div class="box">
-        <img src="img/arms length 2000px sq-white.png" alt="">
-        <h3>Congratulations</h3>
-        <p>You have signed up for the Arm's Length</p>
-        <a href="contact.html" class="btn-submit">Go back</a>
+      <div class="container">
+        <form action="donationsubmit.html">
+          <label for="fname">Donators Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Amount to Donate</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="subject">Write a message with donation</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height:200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" accesskey="s" />
+        </form>
       </div>
     </section>
     <footer>
