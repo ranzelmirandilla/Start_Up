@@ -67,9 +67,23 @@ main  {
   padding-top: 20px;
   font-size: 30px;
   color: #194F92;
+  margin-bottom: 20px;
 }
 
-
+.buy-now {
+	background-color: #fafafb;
+	border-radius:28px;
+	border:1px solid #1c0c61;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	padding:15px 31px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #3b1a61;
+  box-shadow: 0px 1px 5px black
+}
 
 
 /* ##### Footer #### */
