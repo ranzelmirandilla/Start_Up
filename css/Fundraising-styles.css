@@ -13,14 +13,15 @@ body{
 /*.to create a style of the header*/
 h1{
     text-align: center;
-    color: black;
+    color: rgb(175, 78, 78);
   }
   
   section {
     text-align: center;
-    color: black;
+    color: dark #000;
+    font-weight: 200;
   }
- /*/* Create two equal columns that floats next to each other */
+ /*/* Create two equal columns of images that floats next to each other */
  .column {
    float: left;
    width: 50%;
@@ -57,24 +58,21 @@ h1{
 .img>* {
   flex:1 1 10px
 }
-
-
-/* to style the fundraising items, description and price*/
+/* left grid on promo page introducing band members*/
  .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 160px 160px 160px; 
+    grid-template-rows: 100px 100px 100px;
     gap: .5px;
     margin: 5px;
-    color:  black;
+    color:  #000;
     font-family: cursive;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 200;
     text-shadow:
     -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    
+    -1px -1px 0 #000,
+    -1px 1px 0 #000;    
   }
 
   .grid-container div {
@@ -83,11 +81,10 @@ h1{
     padding: 30px;
     border: 1px solid purple;
   }
-
+  
  /* footer information and style*/
  .footer-text p {
-  display: flex;
-  text-align: right;
+  display: flex; text-align: right;
   font-size: 20px;
 }
 .footer {
