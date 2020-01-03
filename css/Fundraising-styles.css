@@ -65,14 +65,14 @@ h1{
     grid-template-rows: 100px 100px 100px;
     gap: .5px;
     margin: 5px;
-    color:  #000;
+    color:  #231f20;
     font-family: cursive;
     font-size: 1em;
     font-weight: 200;
     text-shadow:
-    -1px -1px 0 #000,
-    -1px -1px 0 #000,
-    -1px 1px 0 #000;    
+    -1px -1px 0 #231f20
+    -1px -1px 0 #231f20,
+    -1px 1px 0 #231f20;    
   }
 
   .grid-container div {

@@ -19,8 +19,8 @@ h1{
 /* main body style*/
 section {
   text-align: center;
-  color:  rgb(0, 0, 0);
-  background-color: rgb(90, 167, 218);
+  color:  #231f20;
+  background-color: #EFB7BA;
 }
 /* to make a horizontal unnumbered list for the links*/
 ul {
