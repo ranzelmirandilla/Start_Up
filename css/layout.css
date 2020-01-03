@@ -284,6 +284,76 @@ color: #194F92;
     text-align: right;
     display: flex;
   }
+  
+  /*///////////////////////////////////
+  //////////////STORE/////////////////
+  /////////////////////////////////*/
+  /* ### Store Page Formatting ### */
+
+.store-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #194F92;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.store-header {
+  text-align: center;
+  font-size: 60px;
+  color: #194F92;
+}
+.merch-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  background-color: #fafafb;
+  
+
+}
+
+
+/* ### Merch Boxes ### */
+
+.merch {
+  background-color: rgb(216, 197, 210);
+  width: 300px;
+  border: 10px solid rgb(117, 47, 88);
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 1px 5px black
+  
+}
+
+.merchpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.merch-text {
+  font-family:'Montserrat', sans-serif;
+  padding-top: 20px;
+  font-size: 30px;
+  color: #194F92;
+  margin-bottom: 20px;
+}
+
+.buy-now {
+	background-color: #fafafb;
+	border-radius:28px;
+	border:1px solid #1c0c61;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:'Montserrat', sans-serif;
+	font-size:17px;
+	padding:15px 31px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #3b1a61;
+  box-shadow: 0px 1px 5px black
+}
 
   /*CONTACTPAGE*/
 

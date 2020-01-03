@@ -37,7 +37,7 @@ width: 50%;
 }
 
 .intro-text {
-font-family: 'Montserrat', sans-serif;;
+font-family: 'Montserrat', sans-serif;
 font-size: 20px;
 padding-left: 40px;
 padding-right: 40px;
@@ -76,7 +76,7 @@ color: #194F92;
   }
 
   .course {
-
+    font-family: 'Bebas Neue', cursive;
   }
 /* ### Course Text Styling ###*/
 
