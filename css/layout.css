@@ -13,7 +13,7 @@
     font-family: "Bebas Neue", cursive;
   }
   body {
-    margin: 30px 50px;
+    margin: 20px 10px;
     background: var(--pink);
   }
   img {
@@ -29,6 +29,11 @@
     border: 0;
     box-shadow: var(--bshadow);
     color: black;
+  }
+
+  .btn:hover{
+    background: black;
+    color: var(--white);
   }
 
   /* ///////////////////////////////////
@@ -51,8 +56,9 @@
         text-decoration: none;
         color: var(--drkblue);
         margin: 0 40px;
+       
       }
-      nav a img{
+      nav a img {
         width: 50px;
       margin-left: auto;
       margin-right: auto;
@@ -61,9 +67,10 @@
       #logo{
         width: 100%;
       align-items: center;
-      padding-top: 20px;
+      padding-top: 0px;
       object-fit: cover;
       align-content: center;
+      /* display: block; */
       color: var(--white);
       }
 
@@ -80,6 +87,7 @@
       }
     
     .main {
+      
       padding-top: 300px;
       align-items: start;
       justify-content: center;
