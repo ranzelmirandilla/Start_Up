@@ -51,8 +51,9 @@ h1{
 /* using flex to display images in a row with some space in between*/
 .img {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  flex:  start;
+  /*flex:  start;*/
 }
 /* allowing the images to grow and shrink*/
 .img>* {
@@ -77,20 +78,31 @@ h1{
 
   .grid-container div {
     display: flex;
-    flex-flow: wrap;
+    /*flex-flow: wrap;*/
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 30px;
     border: 1px solid purple;
   }
   
  /* footer information and style*/
- .footer-text p {
-  display: flex; text-align: right;
-  font-size: 20px;
-}
-.footer {
-  color: white;
+ .end {
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
 }
 
+.socials {
+padding: 20px;
+display: flex;
+
+}
+.footer-text p {
+display: flex;
+text-align: right;
+font-size: 20px;
+}
 
 
 

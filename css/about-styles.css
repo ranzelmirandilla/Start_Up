@@ -34,46 +34,64 @@ li {
   display: inline;
   padding: 5px;
 }
- /*for text wrap to the right and left of the images*/
- .TextWrap{
-     float: left;
-     margin:40px;
- }
-
- .TextWrap{
-     float: right;
-     margin: 40px;
+/*style for the about image to wrap to the left*/
+.TextWrap{
+  float: left;
+  margin: 30px;
+}
+/*style for the mission image to wrap to the right*/
+.TextWrapRight{
+  clear: left;
+  float: right;
+  margin: 30px;
 
 }
-/*two dream images placed side by side*/
-.flex-container {
+ 
+/* using flex to display 1st. & 2nd. dream images in a row with some space in between*/
+.img {
+  display: flex;
   flex-direction: row;
-  padding: 10px;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  /*flex:  start;*/
 }
-  .flex-container {
-    flex-direction: row;
-    padding:    10px;
-    justify-content: space-between;
- }
+/* allowing the 1st. and 2nd. dream images to grow and shrink*/
+.img>* {
+  flex:1 1 10px
+}
 
+
+/* style for the mentor image to wrap the left of the text*/
 .TextWrap {
   float: left;
-  margin:40px;
+  margin:30px;
 }
  
   /* footer information and style*/    
-          
-    .footer-text p {
-      display: flex;
-      text-align: right;
-      font-size: 20px;
-    }
+    
+  .end {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+}
 
-  
+.socials {
+padding: 20px;
+display: flex;
+
+}
+
+.footer-text p {
+  display: flex;
+  text-align: right;
+  font-size: 20px;
+}
 
 
-  
+
+
+
+
 
 
 
