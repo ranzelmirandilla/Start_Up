@@ -205,6 +205,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+border-radius: 50%;
 }
 
 .course-header {
@@ -226,7 +227,7 @@ color: #194F92;
 /* ##### Drop Down #### */
 
 .accordion {
-    background-color: #194F92;
+    background-color: rgb(117, 47, 88);
     color: #fafafb;
     cursor: pointer;
     padding: 18px;
@@ -240,13 +241,13 @@ color: #194F92;
   }
   
   .active, .accordion:hover {
-    background-color:#ABBFD7
+    background-color: rgb(129, 95, 115)
   }
   
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: #E8EDF4;
+    background-color: rgb(216, 197, 210);
     overflow: hidden;
     box-shadow: 0px 1px 5px black
   }
