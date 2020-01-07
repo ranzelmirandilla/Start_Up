@@ -226,8 +226,8 @@ color: #194F92;
 /* ##### Drop Down #### */
 
 .accordion {
-    background-color:#637E71;
-    color: #444;
+    background-color: #194F92;
+    color: #fafafb;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -240,13 +240,13 @@ color: #194F92;
   }
   
   .active, .accordion:hover {
-    background-color:#86A88D
+    background-color:#ABBFD7
   }
   
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: #D3D3D3;
+    background-color: #E8EDF4;
     overflow: hidden;
     box-shadow: 0px 1px 5px black
   }
