@@ -10,6 +10,13 @@ img {
   max-width: 100%;
 }
 
+
+
+/* ///////////////////////////////////
+   //////////// Cullen Styles ////////
+   //////////////////////////////////*/ 
+
+
 /* ///////////////////////////////////
    //////////// Home Nav /////////////
    //////////////////////////////////*/
@@ -23,7 +30,8 @@ nav {
   font-size: 30px;
   padding-bottom: 20px;
   color: #194f92;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
 
 /* ///////////////////////////////////
@@ -69,6 +77,8 @@ a {
   padding: 1.5rem 2rem;
   box-shadow: 0px 1px 5px black;
   color: #194f92;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 /* ///////////////////////////////////
