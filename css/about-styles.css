@@ -52,8 +52,8 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*flex:  start;*/
-}
+
+  }
 /* allowing the 1st. and 2nd. dream images to grow and shrink*/
 .img>* {
   flex:1 1 10px
