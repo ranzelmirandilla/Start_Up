@@ -53,13 +53,13 @@ h1{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /*flex:  start;*/
+ 
 }
 /* allowing the images to grow and shrink*/
 .img>* {
   flex:1 1 10px
 }
-/* left grid on promo page introducing band members*/
+/* grid to show all the details about the fundraising items*/
  .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
@@ -78,8 +78,7 @@ h1{
 
   .grid-container div {
     display: flex;
-    /*flex-flow: wrap;*/
-    flex-direction: row;
+   flex-direction: row;
     flex-wrap: wrap;
     padding: 30px;
     border: 1px solid purple;
