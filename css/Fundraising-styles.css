@@ -46,26 +46,28 @@ nav a{
 /*.to create a style of the header*/
 h1{
     text-align: center;
-    color: rgb(175, 78, 78);
-  }
+    color: #d01c1fff;
+    }
   
   section {
     text-align: center;
     color: dark #000;
     font-weight: 200;
   }
- /*/* Create two equal columns of images that floats next to each other */
- .column {
-   float: left;
-   width: 50%;
-   padding: 10px;
- }
- 
- .column img {
-   margin-top: 12px;
- }
- 
- /* Clear floats after the columns */
+
+  /*style for the first top fundraising image to wrap to the left*/
+.TextWrap{
+  float: left;
+  margin: 30px;
+}
+/*style for the first top fundraising image to wrap to the right*/
+.TextWrapRight{
+  clear: left;
+  float: right;
+  margin: 30px;
+
+}
+ /* Clear floats after the columns*/ 
  .row:after {
    content: "";
    display: table;
@@ -114,7 +116,7 @@ h1{
    flex-direction: row;
     flex-wrap: wrap;
     padding: 30px;
-    border: 1px solid purple;
+    border: 1px solid #009a00;
   }
   
  /* footer information and style*/
