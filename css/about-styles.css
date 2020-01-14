@@ -13,7 +13,7 @@ body{
 /*.to create a style of the header*/
 h1{
   text-align: center;
-  color: rgb(173, 77, 77);
+  color: #d01c1fff;
   /*background-color: rgb(196, 33, 33);*/
 }
 /* main body style*/
