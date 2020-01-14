@@ -10,6 +10,49 @@ body{
   
 }
 
+  nav{
+      display: flex;
+      width: 100%;
+      height: 20%;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      padding-bottom: 20px;
+      color: var(--drkblue);  
+      
+    }
+    nav a{
+        /* background: #EF8354; */
+        text-decoration: none;
+        color: var(--drkblue);
+        margin: 0 40px;
+       
+      }
+      nav a img {
+        width: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      }
+      #logo img{
+        width: 500px;
+      align-items: center;
+      padding-top: 0px;
+      object-fit: cover;
+      display: block;
+      align-content: center;
+      /* display: block; */
+      color: var(--white);
+      }
+      a {
+        /* background: #EF8354; */
+        text-decoration: none;
+        color: #194F92;
+        margin: 0 40px;
+      }
+      
+
+
 /*.to create a style of the header*/
 h1{
   text-align: center;
